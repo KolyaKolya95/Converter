@@ -1,0 +1,6 @@
+framework module Pods_convectorTests {
+  umbrella header "Pods-convectorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
