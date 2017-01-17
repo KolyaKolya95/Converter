@@ -298,20 +298,20 @@
                                             <action selector="buttnRot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OVC-kv-jJB"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="aLv-yj-a2W">
-                                        <rect key="frame" x="23" y="29" width="277" height="59"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="IVv-C1-5vg">
-                                        <rect key="frame" x="23" y="160" width="281" height="65"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="IVv-C1-5vg">
+                                        <rect key="frame" x="22" y="160" width="272" height="65"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="IVv-C1-5vg" secondAttribute="height" multiplier="281:65" id="OTq-Jh-O44"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="aLv-yj-a2W">
+                                        <rect key="frame" x="26" y="24" width="268" height="59"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.044989224137931036" colorSpace="calibratedWhite"/>
@@ -399,7 +399,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="104"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.94999999999999996" contentMode="center" tableViewCell="6JX-mT-otE" id="efs-b2-nfK">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="104"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="Zf1-Ux-OB5">

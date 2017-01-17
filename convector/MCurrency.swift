@@ -11,6 +11,7 @@ import Foundation
 typealias JSON = [String : AnyObject]
 
 class MCurrency {
+    
     var source: String
     var quotes : [Quotes] = []
     
