@@ -19,7 +19,7 @@ class UnitsTableViewController: UITableViewController {
     var unitsText = String()
     
     var delegate: SaveUnits?
-  
+    
     private let client = WebClient()
     
     @IBAction func btnBack(_ sender: Any) {
@@ -37,7 +37,6 @@ class UnitsTableViewController: UITableViewController {
         
         return client.load(path: "", method: .get, params: params) { result, error in
             if let dictionaries = result as? [String: AnyObject] {
-                //print(dictionaries)
                 completion(MCurrency(json: dictionaries), error)
             }
             
