@@ -42,7 +42,6 @@ class UnitsTableViewController: UITableViewController {
             
         }
     }
-
     private func loadMoney() {
         moneyTask?.cancel()
         moneyTask = loadMoney {[weak self] moneyArray, error in
