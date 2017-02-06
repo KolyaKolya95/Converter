@@ -149,13 +149,6 @@
 			name = VIew;
 			sourceTree = "<group>";
 		};
-		EB4F081F1DF88083002B226E /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
 		EB4F08201DF88092002B226E /* Table View */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,7 +201,6 @@
 			children = (
 				EBE496551E07155A007E8AD8 /* Delegat */,
 				EBEF52231DF9667A008DA9FF /* Networking */,
-				EB4F081F1DF88083002B226E /* Controller */,
 				EB4F081E1DF88079002B226E /* VIew */,
 				EB2AF6321DED950A0006FFC9 /* Model */,
 				EBF3121A1DD3152C00DF265F /* Assets.xcassets */,
